@@ -1,0 +1,36 @@
+.video-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.video-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  text-shadow: 0 0 10px black;
+}
+.bg-dark .card {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+.bg-dark .card-title, 
+.bg-dark .card-text {
+  color: #fdfbfb;
+}
+.list-style-none {
+  list-style: none;
+  padding-left: 2;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+}
